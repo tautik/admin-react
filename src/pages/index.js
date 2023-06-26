@@ -1,3 +1,3 @@
 import Home from "./Home.jsx";
-
-export { Home };
+import List from "./List.jsx";
+export { Home, List };

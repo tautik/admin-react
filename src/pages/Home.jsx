@@ -1,7 +1,7 @@
-import React from "react";
 import { Widget } from "../components/widget";
 import { Featured } from "../components/feature";
 import { Chart } from "../components/chart";
+import { List } from "../components/table";
 
 const Home = () => {
   return (
@@ -16,6 +16,7 @@ const Home = () => {
         <Featured />
         <Chart title="Last 6 Months (Revenue)" aspect={3 / 1} />
       </div>
+      <List />
     </div>
   );
 };
