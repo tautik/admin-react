@@ -18,7 +18,7 @@ const routes = createBrowserRouter([
       <>
         <div className=" font-[Nunito] flex ">
           <SidebarCmp />
-          <div className="bg-blue-200 w-full">
+          <div className=" w-full">
             <Navbar />
             <Outlet />
           </div>
