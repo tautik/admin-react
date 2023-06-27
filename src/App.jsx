@@ -1,5 +1,5 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Home } from "./pages";
+import { Home, ListPage } from "./pages";
 import SidebarCmp from "./components/sidebar/SidebarCmp";
 import { Navbar } from "./components/navbar";
 
@@ -29,6 +29,10 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/list",
+        element: <ListPage />,
       },
     ],
   },
