@@ -1,3 +1,5 @@
 import Home from "./Home.jsx";
 import ListPage from "./ListPage.jsx";
-export { Home, ListPage };
+import Single from "./Single.jsx";
+
+export { Home, ListPage, Single };

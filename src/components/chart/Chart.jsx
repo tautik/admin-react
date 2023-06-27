@@ -19,7 +19,7 @@ const data = [
 
 const Chart = ({ aspect, title }) => {
   return (
-    <div className="w-[60%]  shadow-md p-4 text-gray-500 justify-center">
+    <div className=" shadow-md p-4 text-gray-500 justify-center">
       <div className="title mb-4">{title}</div>
       <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart

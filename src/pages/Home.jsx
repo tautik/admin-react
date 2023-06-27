@@ -12,9 +12,11 @@ const Home = () => {
         <Widget type="earning" />
         <Widget type="balance" />
       </div>
-      <div className="flex ">
+      <div className="flex w-full">
         <Featured />
-        <Chart title="Last 6 Months (Revenue)" aspect={3 / 1} />
+        <div className="w-full">
+          <Chart title="Last 6 Months (Revenue)" aspect={2 / 1} />
+        </div>
       </div>
       <List />
     </div>
